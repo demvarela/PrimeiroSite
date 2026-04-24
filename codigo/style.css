@@ -63,4 +63,7 @@ select{
     text-align: center;
 }
 
-
+img {
+    width: 5rem;
+    border-radius: 5px;
+}
