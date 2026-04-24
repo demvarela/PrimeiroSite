@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Quiz para programadores</title>
+        <meta name="Description" content="Um quiz interativo para testar seus conhecimentos">
+        <link rel="stylesheet" href="styleIndex.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Quiz interativo para amigos do Daniel</h1>
+            <p>Teste seus conhecimentos como amigo do Daniel e veja qual pontuação você consegue fazer!</p>
+        </header>
+        <main>
+            <!--Introdução-->
+            <section>
+                <h2>Sobre esse quiz</h2>
+                <p><strong>Este quiz</strong> foi desenvolvido para testar se você conhece o Daniel melhor que ninguem, como <em>quem é a pessoa que ele mais ama</em>, se ele gosta de verdura e muito mais!.</p>
+                <p>Você encontrará diferentes tipos de perguntas, incluindo múltiplas escolha, texto e perguntas de data. 
+                    <br>Desafie-se com este quiz!</p>
+                
+            </section>
+            <!--Pergunta 1 - multipla escolha-->
+            <section>
+                <h2>Pergunta 1: Quem é o melhor amigo de Daniel?</h2>
+                <form>
+                    <input type="radio" value="Jorge" id="p1a" name="pergunta1">
+                    <label for="p1a">Jorge</label>
+                    <br>
+                    <input type="radio" value="Davi" id="p1b" name="pergunta1">
+                    <label for="p1b">Davi</label>
+                    <br>
+                    <input type="radio" value="Moura" id="p1c" name="pergunta1">
+                    <label for="p1c">Moura</label>
+                    <br>
+                    <input type="radio" value="Victória" id="p1d" name="pergunta1">
+                    <label for="p1d">Victória</label>
+                </form>
+                <p>Todos são, mas tem uma pessoa que é a mais mais!</p>
+            </section>
+            <!--Pergunta 2 - texto-->
+            <section>
+                <h2>Pergunta 2: Em que cidade o Daniel nasceu?</h2>
+                <form>
+                    <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+                </form>
+            </section>
+            <!--Pergunta 3: - Verdadeiro ou Falso-->
+            <section>
+                <h2>Pergunta 3: O pai do Daniel é professor?</h2>
+                <form>
+                    <input type="radio" value="Verdadeiro" id="p3" name="pergunta3">
+                    <label for="p3">Verdadeiro</label>
+                    <br>
+                    <input type="radio" value="Falso" id="p3" name="pergunta3">
+                    <label for="p3">Falso</label>
+                </form>
+            </section>
+            <!--Pergunta 4 - data-->
+            <section>
+                <h2>Pergunta 4: Em que dia e ano Daniel nasceu</h2>
+                <form>
+                    <input type="date" name="pergunta4" id="p4">
+                </form>
+            </section>
+            <!--Pergunta 5 - seleção multipla-->
+            <section>
+                <h2>Pergunta 5: Quais dessas faculdades Daniel pensou em fazer</h2>
+                <form>
+                    <input type="checkbox" id="p5a" name="pergunta5" value="Engenharia de Software">
+                    <label for="p5a">Engenharia de Software</label>
+                    <br>
+                    <input type="checkbox" id="p5b" name="pergunta5" value="Direito">
+                    <label for="p5b">Direito</label>
+                    <br>
+                    <input type="checkbox" id="p5c" name="pergunta5" value="Administração">
+                    <label for="p5c">Administração</label>
+                    <br>
+                    <input type="checkbox" id="p5d" name="pergunta5" value="Veterinária">
+                    <label for="p5d">Veterinária</label>
+                    <br>
+                </form>
+            </section>
+            <!--Pergunta 6 - Time-->
+            <section>
+                <h2>Pergunta 6: Qual é o time do peito do Daniel</h2>
+                <form>
+                    <input type="radio" value="Flamengo" id="p6a" name="pergunta1">
+                    <label for="p6a">Flamengo</label>
+                    <br>
+                    <input type="radio" value="Corinthias" id="p6b" name="pergunta1">
+                    <label for="p6b">Corinthias</label>
+                    <br>
+                    <input type="radio" value="Grêmio" id="p6c" name="pergunta1">
+                    <label for="p6c">Grêmio</label>
+                    <br>
+                    <input type="radio" value="Internacional" id="p6d" name="pergunta1">
+                    <label for="p6d">Internacional</label>
+                </form>
+            </section>
+            <!--Pergunta 7 - menu suspenso-->
+            <section>
+                <h2>Pergunta 7: selecione o jogo que o Daniel mais jogou na vida</h2>
+                <form>
+                    <select name="pergunta7" id="p7">
+                        <option value="Valorant">Valorant</option>
+                        <option value="Elden Ring">Elden Ring</option>
+                        <option value="Minecraft">Minecraft</option>
+                        <option value="CS">Counter Strike</option>
+                        <option value="Fortnite">Fortnite</option>
+                        
+                    </select>
+                </form>
+            </section>
+            <!--Pergunta 8 - Imagem-->
+            <section>
+                <h2>Pergunta 8: A pessoa da foto é quem do Daniel?</h2>
+                <figure>
+                    <img src="./Imagens/Ayla.jpeg" alt="Foto de criança">
+                    <br>
+                    <figcaption>Figura 1: Foto de alguma criança</figcaption>
+                </figure>
+                <input type="text" id="p8" name="pergunta8" 
+                placeholder="Digite sua resposta...">
+                
+            </section>
+            <!--Tabela de pontuação-->
+            <section>
+                <h2>Tabela de Pontuação</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0-2</td>
+                            <td>Não desista! Cada tentativa é uma oportunidade!</td>
+                        </tr>
+                        <tr>
+                            <td>3-4</td>
+                            <td>Você ainda precisa melhorar. Que tal conversar mais com o Daniel</td>
+                        </tr>
+                        <tr>
+                            <td>5-7</td>
+                            <td>Bom! Seu conhecimento sobre o Daniel está satisfatório</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Perfeito! Você está muito bem informado sobre o Daniel.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Boa sorte na próxima! Não desista de ser o número um!</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <!--Lista de respostas-->
+            <section>
+                <h2>Verifique suas respostas</h2>
+                <details>
+                    <summary>Clique aqui para ver as respostas!</summary>
+                    <ol>
+                        <li>Victória</li>
+                        <li>Blumenau</li>
+                        <li>Verdadeiro</li>
+                        <li>28/07/2006</li>
+                        <li>Engenharia de Software, Direito e Veterinária</li>
+                        <li>Grêmio</li>
+                        <li>Minecraft</li>
+                        <li>Sobrinha do Daniel</li>
+                    </ol>
+                </details>
+            </section>
+            <!--Formularios de feedback-->
+            <section>
+                <h2>Nos dê seu feedback</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informação de contatos</legend>
+                        <label for="">Nome: </label>
+                        <input type="text" id="name" name="name">
+                        <br>
+                        <label for="">E-Mail: </label>
+                        <input type="email" id="email" name="email">
+                        <br>
+                        <label for="">Comentários:</label>
+                        <br>
+                        <textarea name="comentario" id="comentario" rows="4" cols="50" placeholder="Digite aqui..."></textarea>
+                        <br>
+                        <button onclick="alert('feedback enviado!')">Envie o feedback</button>
+                    </fieldset>
+                </form>
+
+            </section>
+        </main>
+        <footer>
+            <p class ="paragrafo-footer">&copy Quiz do Daniel. Todos os direitos reservados</p>
+            <p class="paragrafo-footer">Para conhecer mais sobre mim <a href="SobreMim.html" target="_blank">clique aqui</a></p>
+        </footer>
+    </body>
+</html>
