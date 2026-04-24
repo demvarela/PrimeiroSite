@@ -9,97 +9,116 @@
 
     <body>
         <header>
-            <h1>Quiz interativo para amigos do Davi</h1>
-            <p>Teste seus conhecimentos como amigo do Davi e veja qual pontuação você consegue fazer!</p>
+            <h1>Quiz interativo para amigos do Daniel</h1>
+            <p>Teste seus conhecimentos como amigo do Daniel e veja qual pontuação você consegue fazer!</p>
         </header>
         <main>
             <!--Introdução-->
             <section>
-                <h2>Eu amo minha namorada demais</h2>
-                <p><strong>Este quiz</strong> foi desenvolvido para testar seus conhecimentos em programação, como <em>linguagens de programação</em>, conceitos básicos e mais.</p>
-                <p>Você encontrará diferentes tipos de perguntas, incluindo múltiplas escolha, texto e perguntas de data. <br>Desafie-se com este quiz!</p>
-                <p>Você poderá encontrar alguns acrônimos como <abbr title="Hypertext Markup Lenguage">HTML</abbr> e <abbr title="Cascading Style Sheet">CSS</abbr>, que são comumente usados em questões relacionadas ao desenvolvimento web.</p>
+                <h2>Sobre esse quiz</h2>
+                <p><strong>Este quiz</strong> foi desenvolvido para testar se você conhece o Daniel melhor que ninguem, como <em>quem é a pessoa que ele mais ama</em>, se ele gosta de verdura e muito mais!.</p>
+                <p>Você encontrará diferentes tipos de perguntas, incluindo múltiplas escolha, texto e perguntas de data. 
+                    <br>Desafie-se com este quiz!</p>
+                
             </section>
             <!--Pergunta 1 - multipla escolha-->
             <section>
-                <h2>Pergunta 1: Quantos homens o davi ja pegou?</h2>
+                <h2>Pergunta 1: Quem é o melhor amigo de Daniel?</h2>
                 <form>
-                    <input type="radio" value="1" id="p1a" name="pergunta1">
-                    <label for="p1a">1</label>
+                    <input type="radio" value="Jorge" id="p1a" name="pergunta1">
+                    <label for="p1a">Jorge</label>
                     <br>
-                    <input type="radio" value="10" id="p1b" name="pergunta1">
-                    <label for="p1b">10</label>
+                    <input type="radio" value="Davi" id="p1b" name="pergunta1">
+                    <label for="p1b">Davi</label>
                     <br>
-                    <input type="radio" value="25" id="p1c" name="pergunta1">
-                    <label for="p1c">25</label>
+                    <input type="radio" value="Moura" id="p1c" name="pergunta1">
+                    <label for="p1c">Moura</label>
                     <br>
-                    <input type="radio" value="75" id="p1d" name="pergunta1">
-                    <label for="p1d">75</label>
+                    <input type="radio" value="Victória" id="p1d" name="pergunta1">
+                    <label for="p1d">Victória</label>
                 </form>
+                <p>Todos são, mas tem uma pessoa que é a mais mais!</p>
             </section>
             <!--Pergunta 2 - texto-->
             <section>
-                <h2>Pergunta 2: Cite os nomes dos homens que o Davi mais pegou na sua vida</h2>
+                <h2>Pergunta 2: Em que cidade o Daniel nasceu?</h2>
                 <form>
                     <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
                 </form>
             </section>
-            <!--Pergunta 3: - senha-->
+            <!--Pergunta 3: - Verdadeiro ou Falso-->
             <section>
-                <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
+                <h2>Pergunta 3: O pai do Daniel é professor?</h2>
                 <form>
-                    <input type="password" name="pergunta3" id="p3" placeholder="Digite uma senha...">
+                    <input type="radio" value="Verdadeiro" id="p3" name="pergunta3">
+                    <label for="p3">Verdadeiro</label>
+                    <br>
+                    <input type="radio" value="Falso" id="p3" name="pergunta3">
+                    <label for="p3">Falso</label>
                 </form>
             </section>
             <!--Pergunta 4 - data-->
             <section>
-                <h2>Pergunta 4: Em que ano o HTML lançou sua primeira versão</h2>
+                <h2>Pergunta 4: Em que dia e ano Daniel nasceu</h2>
                 <form>
                     <input type="date" name="pergunta4" id="p4">
                 </form>
             </section>
             <!--Pergunta 5 - seleção multipla-->
             <section>
-                <h2>Pergunta 5: Quais dessas tecnologias sçao consideradas linguagens de programação</h2>
+                <h2>Pergunta 5: Quais dessas faculdades Daniel pensou em fazer</h2>
                 <form>
-                    <input type="checkbox" id="p5a" name="pergunta5" value="Javascript">
-                    <label for="p5a">Javascript</label>
+                    <input type="checkbox" id="p5a" name="pergunta5" value="Engenharia de Software">
+                    <label for="p5a">Engenharia de Software</label>
                     <br>
-                    <input type="checkbox" id="p5b" name="pergunta5" value="HTML">
-                    <label for="p5b">HTML</label>
+                    <input type="checkbox" id="p5b" name="pergunta5" value="Direito">
+                    <label for="p5b">Direito</label>
                     <br>
-                    <input type="checkbox" id="p5c" name="pergunta5" value="Java">
-                    <label for="p5c">Java</label>
+                    <input type="checkbox" id="p5c" name="pergunta5" value="Administração">
+                    <label for="p5c">Administração</label>
                     <br>
-                    <input type="checkbox" id="p5d" name="pergunta5" value="CSS">
-                    <label for="p5d">CSS</label>
+                    <input type="checkbox" id="p5d" name="pergunta5" value="Veterinária">
+                    <label for="p5d">Veterinária</label>
                     <br>
                 </form>
             </section>
-            <!--Pergunta 6 - upload de arquivo-->
+            <!--Pergunta 6 - Time-->
             <section>
-                <h2>Pergunta 6: Faça o upload contendo código HTML</h2>
+                <h2>Pergunta 6: Qual é o time do peito do Daniel</h2>
                 <form>
-                    <input type="file" id="p6" name="pergunta6">
+                    <input type="radio" value="Flamengo" id="p6a" name="pergunta1">
+                    <label for="p6a">Flamengo</label>
+                    <br>
+                    <input type="radio" value="Corinthias" id="p6b" name="pergunta1">
+                    <label for="p6b">Corinthias</label>
+                    <br>
+                    <input type="radio" value="Grêmio" id="p6c" name="pergunta1">
+                    <label for="p6c">Grêmio</label>
+                    <br>
+                    <input type="radio" value="Internacional" id="p6d" name="pergunta1">
+                    <label for="p6d">Internacional</label>
                 </form>
             </section>
             <!--Pergunta 7 - menu suspenso-->
             <section>
-                <h2>Pergunta 7: selecione o atributo do input que define o seu tipo</h2>
+                <h2>Pergunta 7: selecione o jogo que o Daniel mais jogou na vida</h2>
                 <form>
                     <select name="pergunta7" id="p7">
-                        <option value="id">id</option>
-                        <option value="type">type</option>
-                        <option value="placeholder">placeholder</option>
+                        <option value="Valorant">Valorant</option>
+                        <option value="Elden Ring">Elden Ring</option>
+                        <option value="Minecraft">Minecraft</option>
+                        <option value="CS">Counter Strike</option>
+                        <option value="Fortnite">Fortnite</option>
+                        
                     </select>
                 </form>
             </section>
             <!--Pergunta 8 - Imagem-->
             <section>
-                <h2>Pergunta 8: Qual linguagem de programação é representada pela pergunta abaixo?</h2>
+                <h2>Pergunta 8: A pessoa da foto é quem do Daniel?</h2>
                 <figure>
-                    <img src="./Imagens/file.enc" alt="Logotipo de uma linguagem de programção"><br>
-                    <figcaption>Figura 1: Logotipo de uma linguagem de programação</figcaption>
+                    <img src="./Imagens/Ayla.jpg" alt="Foto de criança"><br>
+                    <figcaption>Figura 1: Foto de alguma criança</figcaption>
                 </figure>
                 <input type="text" id="p8" name="pergunta8" 
                 placeholder="Digite sua resposta...">
@@ -122,20 +141,20 @@
                         </tr>
                         <tr>
                             <td>3-4</td>
-                            <td>Você ainda precisa melhorar. Que tal estudar mais sobre programação</td>
+                            <td>Você ainda precisa melhorar. Que tal conversar mais com o Daniel</td>
                         </tr>
                         <tr>
                             <td>5-7</td>
-                            <td>Bom! Seu conhecimento em programação está satisfatório</td>
+                            <td>Bom! Seu conhecimento sobre o Daniel está satisfatório</td>
                         </tr>
                         <tr>
                             <td>8</td>
-                            <td>Perfeito! Você está muito bem informado sobre programação.</td>
+                            <td>Perfeito! Você está muito bem informado sobre o Daniel.</td>
                         </tr>
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colspan="2">Boa sorte na próxima! Estude mais para melhorar!</td>
+                            <td colspan="2">Boa sorte na próxima! Não desista de ser o número um!</td>
                         </tr>
                     </tfoot>
                 </table>
@@ -146,14 +165,14 @@
                 <details>
                     <summary>Clique aqui para ver as respostas!</summary>
                     <ol>
-                        <li>HTML</li>
-                        <li>Domínio</li>
-                        <li>Ab23!kao9#</li>
-                        <li>1991</li>
-                        <li>Javascript, Java</li>
-                        <li>Arquivo deve ter extenção .html</li>
-                        <li>type</li>
-                        <li>Java</li>
+                        <li>Victória</li>
+                        <li>Blumenau</li>
+                        <li>Verdadeiro</li>
+                        <li>28/07/2006</li>
+                        <li>Engenharia de Software, Direito e Veterinária</li>
+                        <li>Grêmio</li>
+                        <li>Minecraft</li>
+                        <li>Sobrinha do Daniel</li>
                     </ol>
                 </details>
             </section>
@@ -180,7 +199,7 @@
             </section>
         </main>
         <footer>
-            <p>&copy Quiz de programação. Todos os direitos reservados</p>
+            <p>&copy Quiz do Daniel. Todos os direitos reservados</p>
             <p>Para conhecer mais sobre mim <a href="SobreMim.html" target="_blank">clique aqui</a></p>
         </footer>
     </body>
